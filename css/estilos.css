@@ -1,0 +1,159 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #EFEDED;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+	margin-left: auto;
+}
+
+.header{
+background: #040B52;
+
+}
+
+		.header-2{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.logo{
+			padding: 12px;
+		}
+		.menu{
+			display: flex;
+			list-style: none;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-right: 0px;
+		}
+		.menu li a{
+			text-decoration: none;
+			padding: 12px;
+			color: white;
+			font-size: 15px;
+			border-right: 2px solid #fff;
+		}
+		.menu li a:hover{
+			border-top: 2px solid #0FF625;
+		
+		}
+		.menu li:last-child{
+			border-right: none;
+
+		}
+
+		.login{
+			color: white;
+			background: #0FC00B;
+			padding: 10px 14px 8px 14px;
+			border-radius: 5px;
+			border-bottom: 3px solid #03A507;
+			margin-right: .7em;
+			margin-left: .7em;
+		}
+
+		.login:hover{
+			background: #0FF625;
+			border-bottom: #07BC10;
+		}
+
+		.portada{
+			background:url(../images/portada.jpeg);
+			background-position: center;
+			background-attachment: contain;
+			background-size: cover;
+			height: 500px;
+			margin: 10px 5px 10px 10px;
+
+		}
+			.texto-principal{
+					background-color: rgba(236, 234, 234, 0.7);
+				    width: 500px;
+				    position: absolute;
+				    bottom: 30px;
+				    left: 30px;
+				    padding: 20px;
+				    border-radius: 5px;
+				   text-decoration: none;
+			}
+			.publicacion {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+
+			}
+			.publicacion .autor{
+					display: flex;
+					align-items: center;
+			}
+			.section{
+				margin: 0px;
+			}
+			.articulos{
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				width: 100%;
+							}
+			.articulo{
+				width: 320px;
+				height: 400px;
+				display: flex;
+				flex-direction: column;
+				
+				margin-bottom: 20px;
+				
+			}
+			.articulo img{
+				width: 325px;
+				height: 200px;
+				border-radius: 5px;
+				border-bottom: 5px solid #04C704;
+			}
+			.articulo .avatar{
+				width: 50px;
+				height: 50px;
+			}
+			.subtitulo{
+	 			font-family: 'Ubuntu', sans-serif;
+				margin: auto;
+				width: 315px;
+
+	 		   	}
+			.footer-aticulo{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				border-top: 2px solid #9B9999;
+				padding-top: 4px;
+				}
+
+footer{
+	background: #CCC9C9;
+}		
+footer nav{
+	display: flex;
+	justify-content: center;
+	color: #6a6a6a;
+	text-decoration: none;
+	align-items: center;
+}
+.numeracion button{
+	color: #6a6a6a;
+	padding: 7px 10px;
+	cursor: pointer;
+}
+footer nav p, footer nav .numeracion a{
+    padding: 0 10px;
+}
+footer .numeracion .active{
+    border: none;
+    background-color: #c1c1c1;
+}
+footer .numeracion span{
+    font-family: 'FontAwesome';
+}
