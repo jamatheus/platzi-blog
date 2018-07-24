@@ -74,7 +74,7 @@ background: #040B52;
 					background-color: rgba(236, 234, 234, 0.7);
 				    width: 500px;
 				    position: absolute;
-				    bottom: 50px;
+				    bottom: -50px;
 				    left: 30px;
 				    padding: 20px;
 				    border-radius: 5px;
